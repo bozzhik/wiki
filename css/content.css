@@ -8,7 +8,6 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   background: white;
 }
-
 #text-virus {
   color: rgb(0, 0, 0);
   font-size: 110%;
@@ -16,14 +15,12 @@
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: normal;
 }
-
 #text-viruss {
 color: rgb(0, 0, 0);
 font-size: 110%;
 font-family: 'PT Sans Caption', sans-serif;
 font-weight: normal;
 }
-
 /* #menu-logo {
   display: table-cell ;
   height: 25%;
@@ -32,3 +29,40 @@ font-weight: normal;
   vertical-align: middle;
   padding: 2%;
 } */
+#base {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  max-width: 1300px;
+}
+
+#zagolovok {
+  font-size: 250%;
+  border-bottom: 1px solid currentColor;
+  /* display: inline-block; */
+  line-height: 0.85;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
+#pod-zagolovok {
+  font-size: 80%;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding-top: 10px;
+}
+
+.content {
+  padding-top: 20px;
+}
+.content p {
+  font-size: 105%;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight:100;
+  line-height: 1.25;
+}
+.bold {
+  font-weight:bold;
+}
