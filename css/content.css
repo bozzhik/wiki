@@ -35,7 +35,9 @@ font-weight: normal;
   padding-top: 2%;
   max-width: 1300px;
 }
-
+#base a {
+  text-decoration: none;
+}
 #zagolovok {
   font-size: 250%;
   border-bottom: 1px solid currentColor;
@@ -66,3 +68,42 @@ font-weight: normal;
 .bold {
   font-weight:bold;
 }
+.sidebar {
+  padding: 5px 25px 5px 5px;
+  z-index: 2;
+  display: table;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  font-size: 95%;
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 1.1;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+.heading {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* .square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  z-index: 1;
+} */
