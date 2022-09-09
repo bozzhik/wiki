@@ -1,4 +1,4 @@
-#menu-wiki-virus {
+#menu-wiki {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,27 +8,21 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   background: white;
 }
-#text-virus {
+#menu-logo {
   color: rgb(0, 0, 0);
   font-size: 110%;
   padding-right: 90%;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: normal;
 }
-#text-viruss {
+#menu-text {
 color: rgb(0, 0, 0);
 font-size: 110%;
 font-family: 'PT Sans Caption', sans-serif;
 font-weight: normal;
 }
-/* #menu-logo {
-  display: table-cell ;
-  height: 25%;
-  text-align: center;
-  width: 25%;
-  vertical-align: middle;
-  padding: 2%;
-} */
+
+
 #base {
   padding-left: 15%;
   padding-right: 15%;
@@ -62,7 +56,6 @@ font-weight: normal;
 .content p {
   font-size: 105%;
   font-family: 'PT Sans Caption', sans-serif;
-  font-weight:100;
   line-height: 1.25;
 }
 .bold {
@@ -87,18 +80,67 @@ font-weight: normal;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
 }
-.heading {
+#p1 {
   font-size: 200%;
   border-bottom: 1px solid currentColor;
   line-height: 0.85;
   margin-top: 15px;
 }
-
-
-
-
-
-
+blockquote {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: italic;
+}
+.old-mac {
+    padding: 10px 10px 10px 10px;
+    z-index: 2;
+    display: table;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-family: 'PT Sans Caption', sans-serif;
+    line-height: 1.1;
+    max-width:50%;
+}
+.old-mac img {
+    max-width: 100%;
+}
+.old-mac p {
+  font-size: 85%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#p2 {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+#p21 {
+  margin-top: 15px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+#p22 {
+  margin-top: 15px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+#p3 {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+.caption {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  margin-top: 15px;
+}
 
 
 /* .square {

@@ -6,26 +6,26 @@
     <title>VIRUS WIKI</title>
     <link rel="icon" type="image/x-icon" href="img/favicon1.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
     <meta property="og:type" content="article">
     <meta property="og:url" content="{https://bozzhik.github.io/wiki/virus.html}">
     <meta property="og:title" content="virus wiki">
     <meta property="og:description" content="virus - a program that wants to harm your computer and data">
-    <meta property="og:image" content="https://bozzhik.github.io/1-html/img/virus.jpg">
+    <meta property="og:image" content="https://bozzhik.github.io/wiki/img/virus.jpg">
     <meta name="twitter:card" content="summary">
 
 <body>
-    <div id="menu-wiki-virus">
-        <a href="main.html"><h1 id="text-virus">WIKI</h1></a>
-        <h2 id="text-viruss">COMPUTER VIRUS</h>
+    <div id="menu-wiki">
+        <a href="main.html"><h1 id="menu-logo">WIKI</h1></a>
+        <h2 id="menu-text">COMPUTER VIRUS</h>
     </div>
 
 <article>
 <div id="base">
         <h1 id="zagolovok">Computer virus</h1>
         <h2 id="pod-zagolovok">from wiki - the free encyclopedia</h1>
-    <div class="content">
+<div class="content">
+        <div> <!-- introduction -->
         <p>A <b class="bold">computer virus <a href="virus.html">⁽¹⁾</a></b> is a type of <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_program" a>computer program</a> that, when executed, replicates itself by modifying other computer programs and <a target="_blank" href="https://en.wikipedia.org/wiki/Code_injection" aaas>inserting</a> its own <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_language">code.</a>
         If this replication succeeds, the affected areas are then said to be "infected" with a computer virus, a metaphor derived from biological <a target="_blank" href="https://en.wikipedia.org/wiki/Virus">viruses.</a></p>
         <p style="margin-top: 15px;">Computer viruses generally require a <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_program">host program.</a> The virus writes its own code into the host program. When the program runs, the written virus program is executed first, causing infection and damage. 
@@ -35,49 +35,139 @@
         to demonstrate that a vulnerability exists in software, for sabotage and <a target="_blank" href="https://en.wikipedia.org/wiki/Denial-of-service_attack">denial of service,</a> or simply because they wish to explore <a target="_blank" href="https://en.wikipedia.org/wiki/Computer_security">cybersecurity,</a> <a target="_blank" href="https://en.wikipedia.org/wiki/Artificial_life">artificial life</a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary algorithms.</a></p>
         <p style="margin-top: 15px;">Computer viruses cause billions of dollars' worth of economic damage each year.<a target="_blank" href="https://web.archive.org/web/20130925202024/http://www.symantec.com/region/reg_eu/resources/virus_cost.html">⁽⁹⁾</a></p>
         <p style="margin-top: 15px; padding-bottom: 25px;">In response, an industry of <a target="_blank" href="https://en.wikipedia.org/wiki/Antivirus_software">antivirus software</a> has cropped up, selling or freely distributing virus protection to users of various <a target="_blank" href="https://en.wikipedia.org/wiki/Operating_system">operating systems.</a></p>
-
-    <nav class="sidebar">
+        </div>
+        <nav class="sidebar"> <!-- navigation -->
         <h3>Contents</h3>
         <ol>
             <li><a href="#p1">History</a></li>
             <li><a href="#p2">Design</a></li>
             <ol>
-                <li><a href="#p2.1">Parts</a></li>
-                <li><a href="#p2.2">Phases</a></li>
+                <li><a href="#p21">Parts</a></li>
+                <li><a href="#p22">Phases</a></li>
            </ol>
             <li><a href="#p3">Targets and replication</a></li>
-            <li><a href="#p4">Detection</a></li>
-            <ol>
-                <li><a href="#p4.1">Read request intercepts</a></li>
-                <li><a href="#p4.2">Self-modification</a></li>
-           </ol>
-            <li><a href="#p5">Effects</a></li>
-            <li><a href="#p6">Infection vectors</a></li>
-            <li><a href="#p7">Countermeasures</a></li>
-            <ol>
-                <li><a href="#p7.1">Recovery strategies and methods</a></li>
-           </ol>
-            <li><a href="#p8">Popular culture</a></li>
-            <li><a href="#p9">Other malware</a></li>
+            <li><a href="#p4">Popular culture</a></li>
+            <li><a href="#p4">Other malware</a></li>
        </ol>
-    </nav>
-        <h1 class="heading">History</h1>
+        </nav>
+        <div> <!-- history -->
+        <h1 id="p1">History</h1>
+            <blockquote cite="https://en.wikipedia.org/wiki/Computer_virus">
+            See also: History of antivirus software, History of ransomware, and History of malware
+            Further information: Timeline of notable computer viruses and worms and Malware research
+            </blockquote>
+            <p style="margin-bottom: 15px;">
+            The first academic work on the theory of self-replicating computer programs was done in 1949 by John von Neumann who gave lectures at the University of Illinois about the "Theory and Organization of Complicated Automata". The work of von Neumann was later published as the "Theory of self-reproducing automata". In his essay von Neumann described how a computer program could be designed to reproduce itself. Von Neumann's design for a self-reproducing computer program is considered the world's first computer virus, and he is considered to be the theoretical "father" of computer virology. In 1972, Veith Risak directly building on von Neumann's work on self-replication, published his article "Selbstreproduzierende Automaten mit minimaler Informationsübertragung" (Self-reproducing automata with minimal information exchange). The article describes a fully functional virus written in assembler programming language for a SIEMENS 4004/35 computer system. In 1980 Jürgen Kraus wrote his diplom thesis "Selbstreproduktion bei Programmen" (Self-reproduction of programs) at the University of Dortmund. In his work Kraus postulated that computer programs can behave in a way similar to biological viruses.
+            </p>
+                <div class="old-mac">
+                <a href="img/old-mac.jpg"><img src="img/old-mac.jpg" alt="old-mac"></a>
+                <p style="margin-top: 5px;">
+                The <a target="_blank" href="https://en.wikipedia.org/wiki/MacMag">MacMag</a> virus 'Universal Peace', as displayed on a Mac in March 1988   
+                </p>
+                </div>
+            <p style="margin-top: 15px;">
+            The Creeper virus was first detected on ARPANET, the forerunner of the Internet, in the early 1970s. Creeper was an experimental self-replicating program written by Bob Thomas at BBN Technologies in 1971. Creeper used the ARPANET to infect DEC PDP-10 computers running the TENEX operating system. Creeper gained access via the ARPANET and copied itself to the remote system where the message, "I'M THE CREEPER. CATCH ME IF YOU CAN!" was displayed. The Reaper program was created to delete Creeper.
+            </p>
+            <p style="margin-top: 15px;">
+            In 1982, a program called "Elk Cloner" was the first personal computer virus to appear "in the wild"—that is, outside the single computer or computer lab where it was created. Written in 1981 by Richard Skrenta, a ninth grader at Mount Lebanon High School near Pittsburgh, it attached itself to the Apple DOS 3.3 operating system and spread via floppy disk. On its 50th use the Elk Cloner virus would be activated, infecting the personal computer and displaying a short poem beginning "Elk Cloner: The program with a personality."
+            </p>
+            <p style="margin-top: 15px;">
+            In 1984 Fred Cohen from the University of Southern California wrote his paper "Computer Viruses – Theory and Experiments". It was the first paper to explicitly call a self-reproducing program a "virus", a term introduced by Cohen's mentor Leonard Adleman. In 1987, Fred Cohen published a demonstration that there is no algorithm that can perfectly detect all possible viruses. Fred Cohen's theoretical compression virus was an example of a virus which was not malicious software (malware), but was putatively benevolent (well-intentioned). However, antivirus professionals do not accept the concept of "benevolent viruses", as any desired function can be implemented without involving a virus (automatic compression, for instance, is available under Windows at the choice of the user). Any virus will by definition make unauthorised changes to a computer, which is undesirable even if no damage is done or intended. The first page of Dr Solomon's Virus Encyclopaedia explains the undesirability of viruses, even those that do nothing but reproduce.
+            </p>
+            <p style="margin-top: 15px;">
+            An article that describes "useful virus functionalities" was published by J. B. Gunn under the title "Use of virus functions to provide a virtual APL interpreter under user control" in 1984. The first IBM PC virus in the "wild" was a boot sector virus dubbed (c)Brain, created in 1986 by Amjad Farooq Alvi and Basit Farooq Alvi in Lahore, Pakistan, reportedly to deter unauthorized copying of the software they had written. The first virus to specifically target Microsoft Windows, <font color="#ff0000">WinVir</font> was discovered in April 1992, two years after the release of Windows 3.0. The virus did not contain any Windows API calls, instead relying on DOS interrupts. A few years later, in February 1996, Australian hackers from the virus-writing crew VLAD created the Bizatch virus (also known as "Boza" virus), which was the first known virus to target Windows 95. In late 1997 the encrypted, memory-resident stealth virus <font color="#ff0000">Win32.Cabanas</font> was released—the first known virus that targeted Windows NT (it was also able to infect Windows 3.0 and Windows 9x hosts).
+            </p>
+            <p style="margin-top: 15px;">
+                Even home computers were affected by viruses. The first one to appear on the Commodore Amiga was a boot sector virus called SCA virus, which was detected in November 1987.
+            </p>
+        </div>
+        <div><!-- design -->
+        <h1 id="p2">Design</h1>
+        <h2 id="p21">Parts</h2>
+            <p style="margin-top: 10px;">
+            A computer virus generally contains three parts: the infection mechanism, which finds and infects new files, the trigger, which determines when to activate the payload and the payload, which is the malicious code to execute.
+            </p>
+            <h2 class="caption">Infection mechanism</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            Also called the infection vector, this is how the virus spreads. Some viruses have a search routine, which locate and infect files on disk. Other viruses infect files as they are run, such as the Jerusalem DOS virus.
+            </p>
+            <h2 class="caption">Trigger</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            Also known as a logic bomb, this is the part of the virus that determines the condition for which the payload is activated. This condition may be a particular date, time, presence of another program, size on disk exceeding a threshold, or opening a specific file.
+            </p>
+            <h2 class="caption">Payload</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+                The payload is the body of the virus that executes the malicious activity. Examples of malicious activities include damaging files, theft of confidential information or spying on the infected system.Payload activity is sometimes noticeable as it can cause the system to slow down or "freeze". Sometimes payloads are non-destructive and their main purpose is to spread a message to as many people as possible. This is called a virus hoax.
+            </p>
+        <h2 id="p22">Phases</h2>
+        <p style="margin-top: 10px;">
+            Virus phases is the life cycle of the computer virus, described by using an analogy to biology. This life cycle can be divided into four phases:
+            </p>
+            <h2 class="caption">Dormant phase</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            The virus program is idle during this stage. The virus program has managed to access the target user's computer or software, but during this stage, the virus does not take any action. The virus will eventually be activated by the "trigger" which states which event will execute the virus. Not all viruses have this stage.
+            </p>
+            <h2 class="caption">Propagation phase</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            The virus starts propagating, which is multiplying and replicating itself. The virus places a copy of itself into other programs or into certain system areas on the disk. The copy may not be identical to the propagating version; viruses often "morph" or change to evade detection by IT professionals and anti-virus software. Each infected program will now contain a clone of the virus, which will itself enter a propagation phase.
+            </p>
+            <h2 class="caption">Triggering phase</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            A dormant virus moves into this phase when it is activated, and will now perform the function for which it was intended. The triggering phase can be caused by a variety of system events, including a count of the number of times that this copy of the virus has made copies of itself. The trigger may occur when an employee is terminated from their employment or after a set period of time has elapsed, in order to reduce suspicion.
+            </p>
+            <h2 class="caption">Execution phase</h2>
+            <p style="margin-top: 10px; margin-left: 30px;">
+            This is the actual work of the virus, where the "payload" will be released. It can be destructive such as deleting files on disk, crashing the system, or corrupting files or relatively harmless such as popping up humorous or political messages on screen.
+            </p>
 
 
-
+        </div>
+        <div> <!-- targets and replication -->
+            <h1 id="p3">Targets and replication</h1>
+                <p style="margin-top: 15px;">
+                Computer viruses infect a variety of different subsystems on their host computers and software. One manner of classifying viruses is to analyze whether they reside in binary executables (such as .EXE or .COM files), data files (such as Microsoft Word documents or PDF files), or in the boot sector of the host's hard drive (or some combination of all of these).
+                </p>
+                <p style="margin-top: 15px;">
+                A memory-resident virus (or simply "resident virus") installs itself as part of the operating system when executed, after which it remains in RAM from the time the computer is booted up to when it is shut down. Resident viruses overwrite interrupt handling code or other functions, and when the operating system attempts to access the target file or disk sector, the virus code intercepts the request and redirects the control flow to the replication module, infecting the target. In contrast, a non-memory-resident virus (or "non-resident virus"), when executed, scans the disk for targets, infects them, and then exits (i.e. it does not remain in memory after it is done executing).
+                </p>
+                <p style="margin-top: 15px;">
+                Many common applications, such as Microsoft Outlook and Microsoft Word, allow macro programs to be embedded in documents or emails, so that the programs may be run automatically when the document is opened. A macro virus (or "document virus") is a virus that is written in a macro language and embedded into these documents so that when users open the file, the virus code is executed, and can infect the user's computer. This is one of the reasons that it is dangerous to open unexpected or suspicious attachments in e-mails. While not opening attachments in e-mails from unknown persons or organizations can help to reduce the likelihood of contracting a virus, in some cases, the virus is designed so that the e-mail appears to be from a reputable organization (e.g., a major bank or credit card company).
+                </p>
+                <p style="margin-top: 15px;">
+                Boot sector viruses specifically target the boot sector and/or the Master Boot Record (MBR) of the host's hard disk drive, solid-state drive, or removable storage media (flash drives, floppy disks, etc.).
+                </p>
+                <p style="margin-top: 15px;">
+                The most common way of transmission of computer viruses in boot sector is physical media. When reading the VBR of the drive, the infected floppy disk or USB flash drive connected to the computer will transfer data, and then modify or replace the existing boot code. The next time a user tries to start the desktop, the virus will immediately load and run as part of the master boot record.
+                </p>
+                <p style="margin-top: 15px;">
+                Email viruses are viruses that intentionally, rather than accidentally, uses the email system to spread. While virus infected files may be accidentally sent as email attachments, email viruses are aware of email system functions. They generally target a specific type of email system (Microsoft Outlook is the most commonly used), harvest email addresses from various sources, and may append copies of themselves to all email sent, or may generate email messages containing copies of themselves as attachments.
+                </p>
+        </div>
+        <div> <!-- popular culture -->
+            <h1 id="p3">Popular culture</h1>
+                <p style="margin-top: 15px;">
+                The first known description of a self-reproducing program in fiction is in the 1970 short story The Scarred Man by Gregory Benford which describes a computer program called VIRUS which, when installed on a computer with telephone modem dialing capability, randomly dials phone numbers until it hits a modem that is answered by another computer, and then attempts to program the answering computer with its own program, so that the second computer will also begin dialing random numbers, in search of yet another computer to program. The program rapidly spreads exponentially through susceptible computers and can only be countered by a second program called VACCINE.
+                </p>
+                <p style="margin-top: 15px;">
+                The idea was explored further in two 1972 novels, When HARLIE Was One by David Gerrold and The Terminal Man by Michael Crichton, and became a major theme of the 1975 novel The Shockwave Rider by John Brunner.
+                </p>
+                <p style="margin-top: 15px;">
+                The 1973 Michael Crichton sci-fi movie Westworld made an early mention of the concept of a computer virus, being a central plot theme that causes androids to run amok. Alan Oppenheimer's character summarizes the problem by stating that "...there's a clear pattern here which suggests an analogy to an infectious disease process, spreading from one...area to the next." To which the replies are stated: "Perhaps there are superficial similarities to disease" and, "I must confess I find it difficult to believe in a disease of machinery."
+                </p>
+        </div>
+        <div> <!-- other malware -->
+            <h1 id="p3">Other malware</h1>
+                <p style="margin-top: 15px;">
+                The term "virus" is also misused by extension to refer to other types of malware. "Malware" encompasses computer viruses along with many other forms of malicious software, such as computer "worms", ransomware, spyware, adware, trojan horses, keyloggers, rootkits, bootkits, malicious Browser Helper Object (BHOs), and other malicious software. The majority of active malware threats are trojan horse programs or computer worms rather than computer viruses. The term computer virus, coined by Fred Cohen in 1985, is a misnomer. Viruses often perform some type of harmful activity on infected host computers, such as acquisition of hard disk space or central processing unit (CPU) time, accessing and stealing private information (e.g., credit card numbers, debit card numbers, phone numbers, names, email addresses, passwords, bank information, house addresses, etc.), corrupting data, displaying political, humorous or threatening messages on the user's screen, spamming their e-mail contacts, logging their keystrokes, or even rendering the computer useless.
+                </p>
+                <p style="margin-top: 15px; margin-bottom: 20px;">
+                However, not all viruses carry a destructive "payload" and attempt to hide themselves—the defining characteristic of viruses is that they are self-replicating computer programs that modify other software without user consent by injecting themselves into the said programs, similar to a biological virus which replicates within living cells.
+                </p>
+        </div>
     </div>
-       
-    
 </div>
 </article>
 
-
-<br>
-<br>
-<br>
-<blockquote cite="">
-    "тут нужно бахнуть какую-то цитату и оформить ее по кайфу"
-</blockquote>
 <div class="square"></div>
 
 </body>

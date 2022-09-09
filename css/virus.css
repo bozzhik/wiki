@@ -1,0 +1,126 @@
+#base {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  max-width: 1300px;
+}
+#base a {
+  text-decoration: none;
+}
+#zagolovok {
+  font-size: 250%;
+  border-bottom: 1px solid currentColor;
+  /* display: inline-block; */
+  line-height: 0.85;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
+#pod-zagolovok {
+  font-size: 80%;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding-top: 10px;
+}
+
+.content {
+  padding-top: 20px;
+}
+.content p {
+  font-size: 105%;
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 1.25;
+}
+.bold {
+  font-weight:bold;
+}
+.sidebar {
+  padding: 5px 25px 5px 5px;
+  z-index: 2;
+  display: table;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  font-size: 95%;
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 1.1;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+#p1 {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+blockquote {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: italic;
+}
+.old-mac {
+    padding: 10px 10px 10px 10px;
+    z-index: 2;
+    display: table;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-family: 'PT Sans Caption', sans-serif;
+    line-height: 1.1;
+    max-width:50%;
+}
+.old-mac img {
+    max-width: 100%;
+}
+.old-mac p {
+  font-size: 85%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#p2 {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+#p21 {
+  margin-top: 15px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+#p22 {
+  margin-top: 15px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+#p3 {
+  font-size: 200%;
+  border-bottom: 1px solid currentColor;
+  line-height: 0.85;
+  margin-top: 15px;
+}
+.caption {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  margin-top: 15px;
+}
+
+
+/* .square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  z-index: 1;
+} */
