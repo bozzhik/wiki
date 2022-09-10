@@ -1,4 +1,14 @@
- #menu-wiki {
+#base-usb {
+  margin: 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  max-width: 1300px;
+}
+#base-usb a {
+  text-decoration: none;
+}
+#menu-wiki {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +91,3 @@ font-weight: normal;
   top: 0;
   left: 0;
 }
-
-
-
