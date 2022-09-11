@@ -1,12 +1,49 @@
+@media all and (max-width: 1000px) {
+  #base-usb {
+    background: red;
+  }
+  .usbb { 
+    display: flex;
+    flex-direction: column;
+  }
+  .usb {
+    max-width: 100%;
+    padding-bottom: 15px;
+  }
+  .usb2 {
+    max-width: 100%;
+  }
+}
+
+#base-usb {
+  margin: 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  max-width: 75%;
+}
+#base-usb a {
+  text-decoration: none;
+}
+.content-usb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content-usb p {
+  font-size: 105%;
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 1.25;
+}
 .usb {
   display:inline-block;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
+  padding-bottom: -5px;
   border: 1px solid #a2a9b1;
   background-color: #f8f9fa;
   font-family: 'PT Sans Caption', sans-serif;
   line-height: 1.1;
   max-width:45%;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 .usb img {
   max-width: 100%;
@@ -21,7 +58,7 @@ font-size: 85%;
 
 .usb2 {
   display:inline-block;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
   border: 1px solid #a2a9b1;
   background-color: #f8f9fa;
   font-family: 'PT Sans Caption', sans-serif;
