@@ -1,4 +1,4 @@
-# Wiki - educational project of website using `HTML` and `CSS` 👨‍💻
+# Wiki - a project for learning `HTML` and `CSS` 👨‍💻
 <pre>
 This project was created to teach the basic principles of site layout.
 </pre>
