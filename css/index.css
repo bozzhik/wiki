@@ -53,7 +53,7 @@ font-weight: normal;
 }
 .block img {
   width: 100%;
-  height: 350px;
+  height: 250px;
   -o-object-fit: cover;
   object-fit: cover;
   padding-bottom: 10px;
@@ -61,15 +61,15 @@ font-weight: normal;
 .block h1 {
   font-family: 'PT Sans Caption', sans-serif;
   color: rgba(0, 0, 0, .8);
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 .block p {
   font-family: 'PT Sans Caption', sans-serif;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 18px;
+  line-height: 24px;
   color: rgba(0, 0, 0, 0.500);
 }
 .block a {
@@ -81,3 +81,14 @@ font-weight: normal;
   top: 0;
   left: 0;
 }
+
+@media all and (max-device-width: 568px) {
+  .block img {
+    height: 150px;
+  }
+ }
+ @media all and (min-device-width: 1440px) {
+  .block img {
+    height: 450px;
+  }
+ }

@@ -1,37 +1,19 @@
 @media all and (max-width: 1000px) {
-  .usbb {
+  .ai {
     position: flex;
     flex-direction: column;
   }
-  .usb {
+  .ai1 {
     max-width: 100% !important;
     margin-right: 0% !important;
     margin-bottom: 4%;
   }
-  .usb2 {
+  .ai2 {
     max-width: 100% !important;
   }
 }
-#base-usb {
-  margin: 0 auto;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 2%;
-  max-width: 75%;
-}
-#base-usb a {
-  text-decoration: none;
-}
-.content-usb {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.content-usb p {
-  font-size: 105%;
-  font-family: 'PT Sans Caption', sans-serif;
-  line-height: 1.25;
-}
-.usb {
+
+.ai1 {
   display:inline-block;
   padding: 10px 10px 5px 10px;
   border: 1px solid #a2a9b1;
@@ -41,10 +23,11 @@
   max-width:45%;
   margin-right: 2%;
 }
-.usb img {
+.ai1 img {
   max-width: 100%;
+  max-height: 500px;
 }
-.usb p {
+.ai1 p {
 font-size: 85%;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -52,7 +35,7 @@ font-size: 85%;
   margin-inline-end: 0px;
 }
 
-.usb2 {
+.ai2 {
   display:inline-block;
   padding: 10px 10px 5px 10px;
   border: 1px solid #a2a9b1;
@@ -61,10 +44,11 @@ font-size: 85%;
   line-height: 1.1;
   max-width:45%;
 }
-.usb2 img {
+.ai2 img {
   max-width: 100%;
+  max-height: 500px;
 }
-.usb2 p {
+.ai2 p {
   font-size: 85%;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -73,4 +57,28 @@ font-size: 85%;
 }
 .hide {
   display: none;
+}
+
+
+.text {
+  margin-bottom: 35px;
+  width: 26.5ch;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  white-space: nowrap;  /* не переносить текст на другую строку */
+  overflow: hidden; /* скрываем переполнение контентом */
+  border-right: 3px solid #0037ff; /* рисуем курсор */
+  animation: cursor 0.2s step-end infinite,
+  printed_text 3s steps(29),
+  blink-caret .2s step-end infinite;
+}      
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}  
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #0037ffc6 }
 }
