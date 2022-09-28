@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+  #base {
+    margin: 0 auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+  }
+}
+/* @media (max-width: 420px) {
+  #base {
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+  }
+}
+@media (max-width: 320px) {
+  #base {
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+  }
+} */
+@media (max-width: 374px) {
+  
+}
